@@ -80,12 +80,12 @@ This guide provides detailed instructions for setting up and running the Timechi
 
 **Command Prompt:**
 ```cmd
-set TIMECHIMP_API_KEY=TC_1Q0e1E3I1M2m0e363Y0C162e0G0e3A0e1o2O2m3M3U3U3I1c2S0S2i3g2i943
+set TIMECHIMP_API_KEY=your_actual_api_key_here
 ```
 
 **PowerShell:**
 ```powershell
-$env:TIMECHIMP_API_KEY='TC_1Q0e1E3I1M2m0e363Y0C162e0G0e3A0e1o2O2m3M3U3U3I1c2S0S2i3g2i943'
+$env:TIMECHIMP_API_KEY='your_actual_api_key_here'
 ```
 
 ### Setting API Key Permanently (System-wide)
@@ -100,7 +100,7 @@ $env:TIMECHIMP_API_KEY='TC_1Q0e1E3I1M2m0e363Y0C162e0G0e3A0e1o2O2m3M3U3U3I1c2S0S2
 
 4. **Enter:**
    - Variable name: `TIMECHIMP_API_KEY`
-   - Variable value: `TC_1Q0e1E3I1M2m0e363Y0C162e0G0e3A0e1o2O2m3M3U3U3I1c2S0S2i3g2i943`
+   - Variable value: `your_actual_api_key_here`
 
 5. **Click OK** to save
 

@@ -5,8 +5,12 @@ import { spawn } from 'child_process';
 
 console.log('Testing Timechimp MCP Server...');
 
-// Set the API key for testing
-process.env.TIMECHIMP_API_KEY = 'TC_1Q0e1E3I1M2m0e363Y0C162e0G0e3A0e1o2O2m3M3U3U3I1c2S0S2i3g2i943';
+// Check if API key is set
+if (!process.env.TIMECHIMP_API_KEY) {
+  console.error('ERROR: TIMECHIMP_API_KEY environment variable is required');
+  console.error('Please set it using: export TIMECHIMP_API_KEY=your_actual_api_key_here');
+  process.exit(1);
+}
 
 // Start the server
 const server = spawn('node', ['dist/index.js'], {

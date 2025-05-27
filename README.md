@@ -13,7 +13,7 @@ A Model Context Protocol (MCP) server for integrating with Timechimp's v2 API. T
 2. **Double-click** `scripts/setup-windows.bat` to install and build
 3. **Set your API key:**
    ```cmd
-   set TIMECHIMP_API_KEY=TC_1Q0e1E3I1M2m0e363Y0C162e0G0e3A0e1o2O2m3M3U3U3I1c2S0S2i3g2i943
+   set TIMECHIMP_API_KEY=your_actual_api_key_here
    ```
 4. **Double-click** `scripts/run-windows.bat` to start the server
 
@@ -26,7 +26,7 @@ A Model Context Protocol (MCP) server for integrating with Timechimp's v2 API. T
    ```
 4. **Set your API key:**
    ```powershell
-   $env:TIMECHIMP_API_KEY='TC_1Q0e1E3I1M2m0e363Y0C162e0G0e3A0e1o2O2m3M3U3U3I1c2S0S2i3g2i943'
+   $env:TIMECHIMP_API_KEY='your_actual_api_key_here'
    ```
 5. **Start the server:**
    ```powershell
@@ -42,7 +42,7 @@ A Model Context Protocol (MCP) server for integrating with Timechimp's v2 API. T
    ```
 4. **Set your API key:**
    ```cmd
-   set TIMECHIMP_API_KEY=TC_1Q0e1E3I1M2m0e363Y0C162e0G0e3A0e1o2O2m3M3U3U3I1c2S0S2i3g2i943
+   set TIMECHIMP_API_KEY=your_actual_api_key_here
    ```
 5. **Start the server:**
    ```cmd
@@ -64,7 +64,7 @@ A Model Context Protocol (MCP) server for integrating with Timechimp's v2 API. T
 
 3. **Set your API key:**
    ```bash
-   export TIMECHIMP_API_KEY=TC_1Q0e1E3I1M2m0e363Y0C162e0G0e3A0e1o2O2m3M3U3U3I1c2S0S2i3g2i943
+   export TIMECHIMP_API_KEY=your_actual_api_key_here
    ```
 
 4. **Start the server:**
@@ -167,17 +167,17 @@ Create a `.env` file in the project root or set environment variables:
 
 **Windows (Command Prompt):**
 ```cmd
-set TIMECHIMP_API_KEY=TC_1Q0e1E3I1M2m0e363Y0C162e0G0e3A0e1o2O2m3M3U3U3I1c2S0S2i3g2i943
+set TIMECHIMP_API_KEY=your_actual_api_key_here
 ```
 
 **Windows (PowerShell):**
 ```powershell
-$env:TIMECHIMP_API_KEY='TC_1Q0e1E3I1M2m0e363Y0C162e0G0e3A0e1o2O2m3M3U3U3I1c2S0S2i3g2i943'
+$env:TIMECHIMP_API_KEY='your_actual_api_key_here'
 ```
 
 **macOS/Linux:**
 ```bash
-export TIMECHIMP_API_KEY=TC_1Q0e1E3I1M2m0e363Y0C162e0G0e3A0e1o2O2m3M3U3U3I1c2S0S2i3g2i943
+export TIMECHIMP_API_KEY=your_actual_api_key_here
 ```
 
 ### Getting Your API Key
@@ -222,7 +222,7 @@ The server communicates via stdio and can be used with any MCP-compatible client
       "command": "node",
       "args": ["dist/index.js"],
       "env": {
-        "TIMECHIMP_API_KEY": "your_api_key_here"
+        "TIMECHIMP_API_KEY": "your_actual_api_key_here"
       }
     }
   }
